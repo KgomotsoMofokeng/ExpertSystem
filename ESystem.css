@@ -1,0 +1,95 @@
+
+body {
+}
+
+#main {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	position: absolute;
+	background-color: lightblue;
+	background-size: 100% 100%;
+}
+
+#header {
+	width: 100%;
+	height: 10%;
+	padding: 0.5%;
+	background: red;
+	position: relative;
+}
+
+h1 {
+	position: absolute;
+	font-family: impact;
+	font-weight: bold;
+   	font-style: italic;
+}
+
+#dispbox {
+	position: relative;
+	margin-left: 24%;
+	margin-top: 0.5%;
+	width: 71%;
+	height: 60%;
+	overflow: auto;
+}
+
+input[type=submit]:hover {
+	    background-color: #45a049;
+	}
+
+input[type=submit]:active {
+ 	background-color: #3e8e41;
+ 	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+#path {
+	height: 5%;
+	width: 60%;
+}
+
+tag {
+	color: green;
+}
+
+#addfile {
+	position: relative;
+	padding: 2%;
+}
+
+#screen {
+	position: relative;
+	margin: 0 2% 0 2%;
+	padding: 0.5%;
+	height: 79%;
+	overflow: auto;
+	background-color: white;
+
+}
+
+#navbar {
+	width: 23%;
+	height: 91.5%;
+	margin-top: 0.5%;
+	position: absolute;
+	background: black;
+}
+
+#foot {
+	position: relative;
+	margin-top: 0.2%;
+	margin-left: 24%;
+	padding: 0.5%;
+	width: 70%;
+	height: 28%;
+	overflow: auto;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	background-color: lightgrey;
+}
+
+
+
+
